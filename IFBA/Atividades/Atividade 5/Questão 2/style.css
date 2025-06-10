@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: larger;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}

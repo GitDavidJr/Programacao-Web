@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.labelContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    
+}
+
+.response{
+    color: gray;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teclado Numérico</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Teclado Numérico</h1>
+    <input readonly type="text" id="senha" />
+
+    <div>
+      <button onclick="inserir('0')">0</button>
+      <button onclick="inserir('1')">1</button>
+      <button onclick="inserir('2')">2</button>
+      <button onclick="inserir('3')">3</button>
+      <button onclick="inserir('4')">4</button>
+      <button onclick="inserir('5')">5</button>
+      <button onclick="inserir('6')">6</button>
+      <button onclick="inserir('7')">7</button>
+      <button onclick="inserir('8')">8</button>
+      <button onclick="inserir('9')">9</button>
+    </div>
+    <div>
+      <button onClick="mostrarSenha()">Mostrar Senha (Por Extenso)</button>
+      <button onClick="apagarSenha()">Apagar Senha</button>
+    </div>
+  </body>
+</html>

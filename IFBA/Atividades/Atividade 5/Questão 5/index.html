@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maiúsculos e Minúsculos</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="labelContainer">
+      <label for="text">Digite um Texto</label>
+      <label for="mai">Texte em Maiúsculo</label>
+      <label for="mai">Texte em Minúsculos</label>
+    </div>
+    <div class="inputContainer">
+      <input type="text" id="text" name="text" oninput="handleMaiMin()" />
+      <input type="text" id="mai" name="mai" readonly class="response" />
+      <input type="text" id="min" name="min" readonly class="response" />
+    </div>
+  </body>
+</html>
