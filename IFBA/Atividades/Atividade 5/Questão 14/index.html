@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peso Ideal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="formPesoIdeal">
+      <div class="options">
+        <label for="sexo">Sexo</label>
+        <select name="sexo" id="sexo">
+          <option value="masculino">Masculino</option>
+          <option value="feminino">Feminino</option>
+        </select>
+      </div>
+      <div class="options">
+        <label for="altura">Altura (Em Metros)</label>
+        <input type="number" id="altura" name="altura" step="0.01" min="0" />
+      </div>
+
+      <button type="submit">Calcular Peso Ideal</button>
+    </form>
+    <div id="historico" class="hidden">
+      <div id="historico">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="3">Histórico</th>
+            </tr>
+            <tr id="header">
+              <th>Sexo</th>
+              <th>Altura (m)</th>
+              <th>Peso Ideal (kg)</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <button id="limparHistorico" type="button" class="hidden">
+      Limpar Histórico
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0; /* Remove margens padrão do navegador */
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width:350px;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.corSelect {
+  margin-left: auto;
+  width: 108px
+}
+
+.rgbInput {
+  margin-left: auto;
+  width: 100px
+}
+
+button {
+    width: 100%;
+}
+
+.hino {
+    text-align: center;
+    
+}
+
+#customColor {
+    display: none;
+}
