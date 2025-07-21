@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tempo Restante</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Selecione Formato de Tempo</h1>
+    <label>
+      <input type="radio" name="formato" value="hms" checked />
+      Horas, Minutos e Segundos
+    </label>
+    <label>
+      <input type="radio" name="formato" value="segundos" />
+      Total de Segundos
+    </label>
+    <button onclick="obterTempoRestante()" id="botao">
+      Obter Tempo Restante para o Término do Dia
+    </button>
+    <div id="resultado" style="margin-top: 20px"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
